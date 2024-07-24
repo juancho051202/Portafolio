@@ -11,8 +11,13 @@ body {
     
 }
 
-.header {
-    background-color: yellowgreen;
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item a:hover {
+    color: grey;
 }
 
 .container {
