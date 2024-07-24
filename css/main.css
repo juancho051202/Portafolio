@@ -11,6 +11,10 @@ body {
     
 }
 
+.header {
+    background-color: yellowgreen;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -24,7 +28,7 @@ body {
     font-weight: 600;
 }
 
-nav.navbar {
+.navbar {
     display: none;
 }
 
@@ -32,4 +36,13 @@ ul.main.menu {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+@media ( min-width: 768px ) {
+    .hamburguer-icon {
+        display: none;
+    }
+    .navbar {
+        display: block;
+    }
 }
