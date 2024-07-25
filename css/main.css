@@ -38,14 +38,18 @@ body {
 }
 
 .container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.logo-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
     margin: 26px auto;
 }
 
-.Logo {
+.logo {
     font-size: 20px;
     font-weight: 600;
 }
@@ -70,4 +74,10 @@ ul.main.menu {
     .navbar {
         display: block;
     }
+}
+
+/** Main: section Bio */
+
+.bio {
+    background-color: var(--pink-lace);
 }
