@@ -1,3 +1,20 @@
+:root {
+
+    /** Colors */
+    --charleston-green-v1: #2D2D2D;
+    --charleston-green-v2: #2B2B2B;
+    --black: #000000;
+    --white: #ffffff;
+    --pink-lace: #F9E6F0;
+    --piggy-pink: #F6DCE9;
+    --paolo-veronese-green: #009379;
+    --anti-flash-white: #F3F3F3;
+
+    /**/
+
+    --color-menu-link: var(--charleston-green-v1);
+}
+
 * {
     border: 2px dotted blue;
     padding: 0px;
@@ -13,7 +30,7 @@ body {
 
 .menu-item a {
     text-decoration: none;
-    color: black;
+    color: var(--color-menu-link);
 }
 
 .menu-item a:hover {
@@ -38,6 +55,9 @@ body {
 }
 
 ul.main.menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
     list-style: none;
     padding: 0;
     margin: 0;
