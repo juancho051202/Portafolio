@@ -16,7 +16,6 @@
 }
 
 * {
-    border: 2px dotted blue;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -26,6 +25,11 @@
 body {
     font-family: "Epilogue", sans-serif;
     
+}
+
+p {
+    line-height: 1.4;
+    font-size: 17px;
 }
 
 .menu-item a {
@@ -80,4 +84,15 @@ ul.main.menu {
 
 .bio {
     background-color: var(--pink-lace);
+}
+
+@media ( min-width: 768px ) {
+    .bio-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 60%;
+        padding: 7rem 0;
+    }
 }
