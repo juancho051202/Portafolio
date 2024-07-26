@@ -15,6 +15,7 @@
     --color-menu-link: var(--charleston-green-v1);
 }
 
+
 * {
     padding: 0px;
     margin: 0px;
@@ -96,3 +97,41 @@ ul.main.menu {
         padding: 7rem 0;
     }
 }
+
+@media ( min-width: 768px ) {
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15rem;
+        width: 85%;
+        padding: 2rem 0;
+    }
+}
+
+.lets {
+    font-size: 32px;
+}
+
+.form-contact { 
+    flex-basis: 50%;
+}
+
+ul.social-media {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.form-footer {
+    list-style: none;
+    width: 400px;
+    color: var(--anti-flash-white);
+    padding: 0px;
+    margin: auto;
+}
+
+.field {
+    width: 100%;
+}
+
