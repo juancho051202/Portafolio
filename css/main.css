@@ -9,6 +9,7 @@
     --piggy-pink: #F6DCE9;
     --paolo-veronese-green: #009379;
     --anti-flash-white: #F3F3F3;
+    --height-input: 69px;
 
     /**/
 
@@ -98,22 +99,21 @@ ul.main.menu {
     }
 }
 
-@media ( min-width: 768px ) {
-    .footer-content{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 15rem;
-        width: 85%;
-        padding: 2rem 0;
-    }
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    padding: 2rem 0;
 }
 
-.lets {
+
+.work-together {
     font-size: 32px;
+    flex-basis: 35%;
 }
 
-.form-contact { 
+.contact { 
     flex-basis: 50%;
 }
 
@@ -126,12 +126,32 @@ ul.social-media {
 .form-footer {
     list-style: none;
     width: 400px;
-    color: var(--anti-flash-white);
     padding: 0px;
     margin: auto;
 }
 
-.field {
+.form-input {
     width: 100%;
+    height: 69px;
+    padding: 25px;
+    margin-bottom: 15px;
+    background-color: var(--anti-flash-white);
+    border: none;
+    font-size: 17px;
+}
+
+textarea.form-input {
+    height: calc( var(--height-input) * 3);
+    font-size: 17px;
+    font-family: "Epilogue", sans-serif;
+    
+}
+
+.botons {
+    width: 40%;
+    height: 80px;
+    background-color: var(--color-menu-link);
+    color: #ffffff;
+    font-size: 20px;
 }
 
