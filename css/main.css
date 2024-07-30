@@ -109,9 +109,39 @@ ul.main-menu {
     .biography {
         margin-top: initial;
     }
+    .description-content {
+        width: 70%;
+    }
+}
+
+span.name-designer {
+    display: block;
+    text-decoration: underline;
 }
 
 /** Main: Section Story */
+
+.description-content {
+    padding: 5rem 0;
+}
+
+.description-content *:first-child {
+    margin-bottom: 2.5rem;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+.description-content p {
+    line-height: 1.7;
+}
+
+.description-content *:nth-child(2n):not(:nth-last-child(1)) {
+    background: var(--paolo-veronese-green);
+    color: var(--piggy-pink);
+    font-weight: 600px;
+
+}
+
 
 
 /** Footer */
