@@ -8,10 +8,15 @@
     --piggy-pink: #F6DCE9;
     --pink-lace: #F9E6F0;
     --white: #ffffff;
+
+    /** formulario */
     --height-input: 69px;
 
-    /**/
+    /** anchors */
     --color-menu-link: var( --charleston-green-v1 );
+
+    /** fonts */
+    --overall-font-size: 62.5%;
 }
 
 * {
@@ -21,24 +26,30 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: var(--overall-font-size);
+}
+
 body {
     font-family: "Epilogue", sans-serif;
+    font-size: 1.6rem;
 }
 
 p {
     line-height: 1.4;
-    font-size: 17px;
+    font-size: 1.7rem;
 }
 
 /** Header */
 #logo {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .menu-item a {
     text-decoration: none;
     color: var( --color-menu-link );
+    font-size: 1.7rem;
 }
 .menu-item a:hover {
     color: gray;
@@ -53,7 +64,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 26px auto;
+    margin: 2.6rem auto;
 }
 
 .navbar {
@@ -86,6 +97,12 @@ ul.main-menu {
 .bio-content {
     padding: 4.8rem 0;
 }
+
+.biography {
+    margin-top: 6rem;
+    font-size: 1.7rem;
+}
+
 .avatar-name {
     font-size: 17px;
     margin: 1.2rem 0;
@@ -125,6 +142,14 @@ span.name-designer {
     padding: 5rem 0;
 }
 
+.description-content h2 {
+    font-size: 2.4rem;
+}
+
+.description-content p {
+    font-size: 1.7rem;
+}
+
 .description-content *:first-child {
     margin-bottom: 2.5rem;
     font-weight: normal;
@@ -153,25 +178,38 @@ span.name-designer {
     padding: 3rem 0;
 }
 
+input::-webkit-input-placeholder {
+    font-size: 1.7rem;
+}
+input:-moz-placeholder {
+    font-size: 1.7rem;
+}
+input::-moz-placeholder {
+    font-size: 1.7rem;
+}
+input::-ms-input-placeholder {
+    font-size: 1.7rem;
+}
+
 @media ( min-width: 768px ) {
     .footer-content {
         flex-direction: row;
     }
 }
 
-
 .lets-work {
     flex-basis: 30%;
 }
 .lets-work h2 {
-    margin-bottom: 2.4rem;
+    margin-bottom: 24px;
+    font-size: 3.2rem;
 }
 ul.social-media {
     list-style: none;
     display: flex;
     justify-content: left;
     gap: .5rem;
-    margin: 2.4rem 0;
+    margin: 24px 0;
 }
 
 .contact {
@@ -182,7 +220,7 @@ ul.social-media {
     width: 100%;
     height: var( --height-input );
     padding: 25px;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     background-color: var( --anti-flash-white );
     border: none;
     outline: none;
@@ -193,7 +231,8 @@ ul.social-media {
     display: inline-block;
     padding: 25px 85px;
     border: 1px solid transparent;
-    margin: 1.6rem 0;
+    margin: 16px 0;
+    font-size: 2rem;
 }
 .btn--bg-black {
     background-color: var( --black );
