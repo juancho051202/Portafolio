@@ -1,0 +1,13 @@
+.btn {
+    width: 235px;
+    display: inline-block;
+    padding: 25px 85px;
+    border: 1px solid transparent;
+    margin: 16px 0;
+    font-size: 2rem;
+}
+.btn--bg-black {
+    background-color: var( --black );
+    color: var( --white );
+    font-weight: bold;
+}
