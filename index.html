@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./js/slider.js">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -31,6 +32,37 @@
         </div>
     </header>
     <main class="main">
+
+        <section class="slider-wrapper">
+            <button class="slide-arrow" id="slide-arrow-prev">
+              &#8249;
+            </button>
+            <button class="slide-arrow" id="slide-arrow-next">
+              &#8250;
+            </button>
+            <ul class="slides-container" id="slides-container">
+              <li class="slide">
+                <a href="#">
+                    <img class="imagen" src="./images/Image.png" alt="img">
+                </a>
+              </li>
+              <li class="slide">
+                <a href="#">
+                    <img class="imagen" src="./images/Image.png" alt="img">
+                </a>
+              </li>
+              <li class="slide">
+                <a href="#">
+                    <img class="imagen" src="./images/Image.png" alt="img">
+                </a>
+              </li>
+              <li class="slide">
+                <a href="#">
+                    <img class="imagen" src="./images/Image.png" alt="img">
+                </a>
+              </li>
+            </ul>
+          </section>
   
         <section class="bio">
             <div class="container bio-content">
@@ -118,6 +150,7 @@
 
     </footer>
 
+    <script src="./js/slider.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
