@@ -1,4 +1,8 @@
+**Proyecto hecho por:**
+***Juan Esteban Valencia Angarita***
+
 # Pablo Designero
+
 Creación de portafolio para un diseñador usando HTML, CSS y JavaScript
 
 ## Conceptos trabajados en este proyecto
@@ -23,3 +27,9 @@ El propósito de esta plantilla es ejemplificar la manera en que se construye un
 
 console.log("Pablo Designero")
 ```
+
+## Equipo
+|Nombre|Ciudad|
+|------|------|
+|Juan Valencia|Bogotá D.c|
+|Ángela Cardenas|Bogotá D.c|
